@@ -1,0 +1,127 @@
+body {
+    font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    width: 98%;
+    margin: 0 auto;
+
+}
+
+aside {
+    width: 6%;
+    float: left;
+    height: 100vh;
+    background-color: lightgray
+    }
+
+ul {
+list-style: none;
+}
+
+aside>ul>li {
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+nav {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    font-size: medium;
+}
+
+aside>ul>li>img {
+width: 50%;
+margin-left: -50%;
+margin-top: 20px;
+}
+
+input {
+width: 75%;
+margin-left: 250px;
+margin-right: 10px;
+}
+
+.linea {
+margin-top: 25px;
+}
+
+main {
+width: 93%;
+float: right;
+}
+
+
+div {
+width: 96%;
+padding-left: 10px;
+position: relative;
+background-color: white;
+}
+main>header>input{
+    background-color: lightgray;
+}
+main>header>img {
+border-radius: 50%;
+margin-left: 20px;;
+}
+
+header {
+position: relative;
+margin:20px;
+}
+
+button {
+border: none;
+bottom: white;
+margin: 0 25px 0 25px;
+padding: 8px;
+background-color: white;
+border-left: 10px;
+}
+
+span {
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+button:hover {
+    background: rgb(171, 169, 169);
+    color: black;
+    }
+      
+
+.contenedor {
+padding-left: 10px 5px 5px 10px;
+width: 100%;
+position: relative;
+overflow: hidden;
+background-color: white;
+}
+
+.columna {
+display: inline-block;
+float: left;   
+width: 33.33%;
+box-sizing: border-box;
+text-align: center;
+vertical-align: top;
+}
+
+.caja {
+width: 96%;
+margin-bottom: 10px;
+background-color: lightblue;
+padding: 10px;
+position: relative;
+}
+
+.caja img {
+width: 100%;
+height: auto;
+display: inline-block;
+border-radius: 10px;
+
+}
